@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #efefef;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.card {
+    background: white;
+    width: 450px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    padding: 30px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid #fff;
+    margin-top: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #2c2f92;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #333;
+    font-weight: normal;
+}
+
+.buttons {
+    margin: 30px 0;
+}
+
+.btn {
+    background: #2c2f92;
+    color: white;
+    text-decoration: none;
+    padding: 14px 24px;
+    border-radius: 10px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.section {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.section h3 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.section p {
+    background: #f8f8f8;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #2c2f92;
+}
